@@ -1,0 +1,6 @@
+{
+  "name": "AURA // Vault — Titanium Crypto & Cash Wallet",
+  "description": "Next-generation institutional-grade crypto and cash wallet featuring real-time portfolio scrubbing, interactive 3D titanium card, instant multi-chain swaps, and yield vaults.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

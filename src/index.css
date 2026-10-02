@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-variant-numeric: tabular-nums;
+    background-color: #090A0C;
+    color: #EDEEF0;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-mono-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.font-display {
+  font-family: 'Syne', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle metallic glass card reflections */
+.metallic-sheen {
+  background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.01) 50%, rgba(0,0,0,0.4) 100%);
+}
+
+.glow-card {
+  box-shadow: 0 0 35px -10px rgba(230, 223, 207, 0.08);
+}
+
